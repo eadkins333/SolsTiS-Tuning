@@ -5,6 +5,8 @@ Stripped down version of the Labview Code used for tuning the SolsTiS M2 Laser w
 
 Files will need the wavemeter .dll to be executable
 
+SolsTiS Jump Program.vi is the main vi.  All other programs are sub vis
+
 Program is oriented in stages that loop until endpoint is reached
 
 1.  Init - Initializes variables and sets the modulation analog modulation voltages to zero.  Then proceeds to first lock
